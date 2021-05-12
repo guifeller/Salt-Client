@@ -1,0 +1,23 @@
+#terminal {
+    background-color: white;
+    height: 300px;
+}
+
+#terminal {
+    overflow:hidden; 
+    overflow-y: auto;
+}
+
+#terminal ul li{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+
+#stp {
+    visibility: hidden;
+}

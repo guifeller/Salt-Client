@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form id="form" class="col s12">
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input type="text" id="username" autofocus>
+                        <label for="username">Username: </label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input type="password" id="password">
+                        <label for="password">Password: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input type="text" id="serverURL">
+                        <label for="serverURL">Server adress: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <label class="col">
+                            <input id="remember" type="checkbox" class="red"/>
+                            <span>Remember the username and the adress of the server.</span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <button type="submit" form="form" id="subm">Send</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../Scripts/login.js"></script>
+</body>
+</html>
